@@ -1,0 +1,33 @@
+{
+  "name": "ts-backend-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A minimal TypeScript backend with JWT authentication and transaction fetching.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.20.3",
+    "typescript": "^4.5.4"
+  }
+}
